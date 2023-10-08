@@ -23,7 +23,7 @@ const Navbar = () => {
     <div className='app__navbar-login'>
       <a href='#login' className='p__opensans' >log in / Register</a>
       <div />
-     <a href='#' className='p__opensans'onClick={() => alert("sorry.. this facilty is out of service now ")}>Book Table</a> 
+     <a href='#login' className='p__opensans'onClick={() => alert("sorry.. this facilty is out of service now ")}>Book Table</a> 
      </div>
      <div className='app__navbar-smallscreen'>
       
